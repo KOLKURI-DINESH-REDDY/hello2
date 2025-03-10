@@ -14,4 +14,9 @@ public class HelloController {
     {
         return "hello";
     }
+    @GetMapping("who")
+    public String who()
+    {
+        return "who";
+    }
 }
