@@ -19,4 +19,9 @@ public class HelloController {
     {
         return "how";
     }
+    @GetMapping("girls")
+    public String girls()
+    {
+        return "girls";
+    }
 }
