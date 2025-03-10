@@ -14,9 +14,16 @@ public class HelloController {
     {
         return "hello";
     }
+<<<<<<< HEAD
     @GetMapping("men")
     public String men()
     {
         return "men";
+=======
+    @GetMapping("who")
+    public String who()
+    {
+        return "who";
+>>>>>>> c264a1f6718f0c1ac67f33300edb16dd89a4f9c8
     }
 }
